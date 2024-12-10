@@ -64,9 +64,9 @@ st.write("Enter the features to predict life expectancy:")
 country = st.selectbox("Select Country", countries)
 
 # User input for other features (adjust according to your dataset)
-feature1 = st.number_input("Feature 1 (e.g., GDP)", min_value=0.0)
-feature2 = st.number_input("Feature 2 (e.g., schooling)", min_value=0.0)
-feature3 = st.number_input("Feature 3 (e.g., alcohol consumption)", min_value=0.0)
+feature1 = st.number_input("Enter GDP)", min_value=0.0)
+feature2 = st.number_input("Enter Education Level)", min_value=0.0)
+feature3 = st.number_input("Alcohol Consumption Level)", min_value=0.0)
 # Add more feature inputs as per your dataset
 
 # Prediction button
