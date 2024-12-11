@@ -64,7 +64,7 @@ st.sidebar.text("""
        GDP: This is the country's Gross Domestic Product per capita (in USD) e.g 380.52.\n
        Schooling: Schooling represents the number of years of education received by a person. (Input a numeric value ranging from 0 to 20, e.g 13.5).\n
        Income composition of resources: This is the Human Development Index in terms of income composition of resources (value ranging from 0 to 1, e.g 0.6).\n
-       BMI: BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50).
+       BMI: BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50).\n
 """)
 
 st.write("Enter the features to predict life expectancy:")
@@ -87,3 +87,13 @@ if st.button("Predict"):
     
     # Display the predicted life expectancy
     st.write(f"Predicted Life Expectancy for {country}: {prediction[0]} years")
+
+
+# Signature
+st.markdown("---")  # Separator line
+st.markdown(
+    "<div style='text-align: right; font-size: 16px; font-style: italic;'>"
+    "Signed, <br> Charles Ebong"
+    "</div>",
+    unsafe_allow_html=True
+)
