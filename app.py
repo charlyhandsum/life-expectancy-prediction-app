@@ -61,10 +61,10 @@ st.title("Life Expectancy Prediction")
 # SideBar Descriptions for each feature 
 st.sidebar.header("Input Feature Descriptions:")
 st.sidebar.text("""
-       'GDP': "GDP is the Gross Domestic Product per capita, representing the economic output of a country per person. Input a positive numeric value.",\n
-       'Schooling': "Schooling represents the average number of years of education received by people aged 25 and older. Input a numeric value (e.g., 0 to 20).",\n
-       'Income composition of resources': "Income composition of resources analyzes how households earn income from natural resources, private assets, and household size. Input a value between 0 and 1.",\n
-       'BMI': "BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50)."
+       GDP: This is the country's Gross Domestic Product per capita (in USD).,\n
+       Schooling: Schooling represents the number of years of education received by a person. (Input a numeric value ranging from 0 to 20).,\n
+       Income composition of resources: This is the Human Development Index in terms of income composition of resources (value ranging from 0 to 1),\n
+       BMI: BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50).
 """)
 
 st.write("Enter the features to predict life expectancy:")
@@ -73,10 +73,10 @@ st.write("Enter the features to predict life expectancy:")
 country = st.selectbox("Select Country", countries)
 
 # User input for other features
-feature1 = st.number_input("Enter GDP", min_value=0.0, placeholder="Enter country's GDP e.g., 520.4")
-feature2 = st.number_input("Enter Education Level", min_value=0.0, placeholder='Enter a value between 1-10. e.g., 7.7')
-feature3 = st.number_input("Income composition of resources", min_value=0.0, placeholder='Enter a value between 0-1. e.g., 7.7')
-feature4 = st.number_input("BMI", min_value=0.0, placeholder="Enter BMI e.g., 20.4")
+feature1 = st.number_input("Enter GDP", min_value=0.0, placeholder="Enter country's GDP")
+feature2 = st.number_input("Enter Education Level", min_value=0.0, placeholder='Enter a value between 1-10')
+feature3 = st.number_input("Income composition of resources", min_value=0.0, placeholder='Enter a value between 0-1')
+feature4 = st.number_input("BMI", min_value=0.0, placeholder="Enter BMI")
 
 
 # Prediction button
