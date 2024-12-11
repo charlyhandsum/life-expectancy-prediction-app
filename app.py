@@ -58,6 +58,15 @@ countries = ['Afghanistan', 'Albania', 'Algeria', 'Angola',
 # Streamlit UI
 st.title("Life Expectancy Prediction")
 
+# SideBar Descriptions for each feature 
+st.sidebar.header("Input Feature Descriptions:")
+st.sidebar.text("""
+GDP: Gross Domestic Product per capita (numeric value, e.g., 1234.56)
+Schooling: Average years of schooling (numeric value, e.g., 12.3)
+Income composition of resources: Index (numeric value between 0 and 1, e.g., 0.8)
+BMI: Body Mass Index (numeric value, e.g., 23.5)
+""")
+
 st.write("Enter the features to predict life expectancy:")
 
 # User input for country
