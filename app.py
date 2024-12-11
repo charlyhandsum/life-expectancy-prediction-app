@@ -74,7 +74,7 @@ country = st.selectbox("Select Country", countries)
 
 # User input for other features
 feature1 = st.number_input("Enter GDP", min_value=0.0, placeholder="Enter country's GDP")
-feature2 = st.number_input("Enter Education Level", min_value=0.0, placeholder='Enter a value between 1-10')
+feature2 = st.number_input("Enter Schooling Years", min_value=0.0, placeholder='Enter a value between 1-10')
 feature3 = st.number_input("Income composition of resources", min_value=0.0, placeholder='Enter a value between 0-1')
 feature4 = st.number_input("BMI", min_value=0.0, placeholder="Enter BMI")
 
