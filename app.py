@@ -61,10 +61,10 @@ st.title("Life Expectancy Prediction")
 # SideBar Descriptions for each feature 
 st.sidebar.header("Input Feature Descriptions:")
 st.sidebar.text("""
-'GDP': "GDP is the Gross Domestic Product per capita, representing the economic output of a country per person. Input a positive numeric value.",
-    'Schooling': "Schooling represents the average number of years of education received by people aged 25 and older. Input a numeric value (e.g., 0 to 20).",
-    'Income composition of resources': "Income composition of resources analyzes how households earn income from natural resources, private assets, and household size. Input a value between 0 and 1.",
-    'BMI': "BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50)."
+       'GDP': "GDP is the Gross Domestic Product per capita, representing the economic output of a country per person. Input a positive numeric value.",\n
+       'Schooling': "Schooling represents the average number of years of education received by people aged 25 and older. Input a numeric value (e.g., 0 to 20).",\n
+       'Income composition of resources': "Income composition of resources analyzes how households earn income from natural resources, private assets, and household size. Input a value between 0 and 1.",\n
+       'BMI': "BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50)."
 """)
 
 st.write("Enter the features to predict life expectancy:")
