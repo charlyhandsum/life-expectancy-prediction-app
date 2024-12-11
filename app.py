@@ -61,9 +61,9 @@ st.title("Life Expectancy Prediction")
 # SideBar Descriptions for each feature 
 st.sidebar.header("Input Feature Descriptions:")
 st.sidebar.text("""
-       GDP: This is the country's Gross Domestic Product per capita (in USD).,\n
-       Schooling: Schooling represents the number of years of education received by a person. (Input a numeric value ranging from 0 to 20).,\n
-       Income composition of resources: This is the Human Development Index in terms of income composition of resources (value ranging from 0 to 1),\n
+       GDP: This is the country's Gross Domestic Product per capita (in USD) e.g 380.52.\n
+       Schooling: Schooling represents the number of years of education received by a person. (Input a numeric value ranging from 0 to 20, e.g 13.5).\n
+       Income composition of resources: This is the Human Development Index in terms of income composition of resources (value ranging from 0 to 1, e.g 0.6).\n
        BMI: BMI is the Body Mass Index, representing a person's weight relative to their height. Input a numeric value (e.g., 15 to 50).
 """)
 
